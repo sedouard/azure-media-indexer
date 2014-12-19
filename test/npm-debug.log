@@ -1,0 +1,1644 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'grunt-mocha-test' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json azure-media-indexer@0.3.4 No repository field.
+5 warn package.json azure-media-indexer@0.3.4 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'grunt-mocha-test', null ]
+8 verbose cache add name=undefined spec="grunt-mocha-test" args=["grunt-mocha-test",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'grunt-mocha-test',
+9 verbose parsed url   path: 'grunt-mocha-test',
+9 verbose parsed url   href: 'grunt-mocha-test' }
+10 silly lockFile 90c6758b-grunt-mocha-test grunt-mocha-test
+11 verbose lock grunt-mocha-test /Users/user/.npm/90c6758b-grunt-mocha-test.lock
+12 silly lockFile 90c6758b-grunt-mocha-test grunt-mocha-test
+13 silly lockFile 90c6758b-grunt-mocha-test grunt-mocha-test
+14 verbose addNamed [ 'grunt-mocha-test', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile b8bf61ea-grunt-mocha-test grunt-mocha-test@
+17 verbose lock grunt-mocha-test@ /Users/user/.npm/b8bf61ea-grunt-mocha-test.lock
+18 silly addNameRange { name: 'grunt-mocha-test', range: '*', hasData: false }
+19 verbose request where is /grunt-mocha-test
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 684a83f32f764f2f
+22 verbose url raw /grunt-mocha-test
+23 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-mocha-test' ]
+24 verbose url resolved https://registry.npmjs.org/grunt-mocha-test
+25 verbose request where is https://registry.npmjs.org/grunt-mocha-test
+26 info trying registry request attempt 1 at 23:31:59
+27 verbose etag "38LJLAY4X7R3ETN47TW7QKK6T"
+28 http GET https://registry.npmjs.org/grunt-mocha-test
+29 http 304 https://registry.npmjs.org/grunt-mocha-test
+30 silly registry.get cb [ 304,
+30 silly registry.get   { date: 'Fri, 19 Dec 2014 07:31:58 GMT',
+30 silly registry.get     server: 'Apache',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     'last-modified': 'Fri, 19 Dec 2014 07:31:58 GMT',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     etag: '"38LJLAY4X7R3ETN47TW7QKK6T"',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '1',
+30 silly registry.get     'x-timer': 'S1418974318.610723,VS0,VE303',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'content-length': '0',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 verbose etag https://registry.npmjs.org/grunt-mocha-test from cache
+32 silly addNameRange number 2 { name: 'grunt-mocha-test', range: '*', hasData: true }
+33 silly addNameRange versions [ 'grunt-mocha-test',
+33 silly addNameRange   [ '0.0.1',
+33 silly addNameRange     '0.1.0',
+33 silly addNameRange     '0.1.1',
+33 silly addNameRange     '0.2.0',
+33 silly addNameRange     '0.2.1',
+33 silly addNameRange     '0.2.2',
+33 silly addNameRange     '0.3.0',
+33 silly addNameRange     '0.3.1',
+33 silly addNameRange     '0.3.2',
+33 silly addNameRange     '0.3.3',
+33 silly addNameRange     '0.3.4',
+33 silly addNameRange     '0.3.5',
+33 silly addNameRange     '0.4.0',
+33 silly addNameRange     '0.5.0',
+33 silly addNameRange     '0.6.0',
+33 silly addNameRange     '0.6.1',
+33 silly addNameRange     '0.6.2',
+33 silly addNameRange     '0.6.3',
+33 silly addNameRange     '0.7.0',
+33 silly addNameRange     '0.8.0',
+33 silly addNameRange     '0.8.1',
+33 silly addNameRange     '0.8.2',
+33 silly addNameRange     '0.9.0',
+33 silly addNameRange     '0.9.1',
+33 silly addNameRange     '0.9.2',
+33 silly addNameRange     '0.9.3',
+33 silly addNameRange     '0.9.4',
+33 silly addNameRange     '0.10.0',
+33 silly addNameRange     '0.10.1',
+33 silly addNameRange     '0.10.2',
+33 silly addNameRange     '0.11.0',
+33 silly addNameRange     '0.12.0',
+33 silly addNameRange     '0.12.1',
+33 silly addNameRange     '0.12.2',
+33 silly addNameRange     '0.12.3',
+33 silly addNameRange     '0.12.4' ] ]
+34 verbose addNamed [ 'grunt-mocha-test', '0.12.4' ]
+35 verbose addNamed [ '0.12.4', '0.12.4' ]
+36 silly lockFile b1b9cfa5-grunt-mocha-test-0-12-4 grunt-mocha-test@0.12.4
+37 verbose lock grunt-mocha-test@0.12.4 /Users/user/.npm/b1b9cfa5-grunt-mocha-test-0-12-4.lock
+38 silly lockFile b1b9cfa5-grunt-mocha-test-0-12-4 grunt-mocha-test@0.12.4
+39 silly lockFile b1b9cfa5-grunt-mocha-test-0-12-4 grunt-mocha-test@0.12.4
+40 silly lockFile b8bf61ea-grunt-mocha-test grunt-mocha-test@
+41 silly lockFile b8bf61ea-grunt-mocha-test grunt-mocha-test@
+42 silly resolved [ { name: 'grunt-mocha-test',
+42 silly resolved     description: 'A grunt task for running server side mocha tests',
+42 silly resolved     version: '0.12.4',
+42 silly resolved     homepage: 'https://github.com/pghalliday/grunt-mocha-test',
+42 silly resolved     author:
+42 silly resolved      { name: 'Peter Halliday',
+42 silly resolved        email: 'pghalliday@gmail.com',
+42 silly resolved        url: 'http://pghalliday.github.io/' },
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'git://github.com/pghalliday/grunt-mocha-test.git' },
+42 silly resolved     bugs: { url: 'https://github.com/pghalliday/grunt-mocha-test/issues' },
+42 silly resolved     licenses: [ [Object] ],
+42 silly resolved     engines: { node: '>= 0.10.4' },
+42 silly resolved     scripts: { test: 'grunt', ci: 'grunt ci' },
+42 silly resolved     config: { 'travis-cov': [Object] },
+42 silly resolved     dependencies: { hooker: '~0.2.3', mkdirp: '^0.5.0' },
+42 silly resolved     peerDependencies: { mocha: '>=1.20.0' },
+42 silly resolved     devDependencies:
+42 silly resolved      { chai: '~1.10.0',
+42 silly resolved        'coffee-script': '~1.8.0',
+42 silly resolved        'cover-child-process': '~0.1.5',
+42 silly resolved        grunt: '~0.4.4',
+42 silly resolved        'grunt-blanket': '~0.0.8',
+42 silly resolved        'grunt-cli': '~0.1.13',
+42 silly resolved        'grunt-contrib-clean': '~0.6.0',
+42 silly resolved        'grunt-contrib-copy': '^0.7.0',
+42 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+42 silly resolved        'grunt-coveralls': '~1.0.0',
+42 silly resolved        'grunt-env': '~0.4.1',
+42 silly resolved        mocha: '~2.0.0',
+42 silly resolved        'mocha-lcov-reporter': '0.0.1',
+42 silly resolved        rimraf: '^2.2.8',
+42 silly resolved        'travis-cov': '~0.2.5' },
+42 silly resolved     keywords: [ 'gruntplugin', 'mocha', 'test' ],
+42 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+42 silly resolved     gitHead: '9a59cbab4ef8c41d0ffb57b35eaf49682aab0c75',
+42 silly resolved     _id: 'grunt-mocha-test@0.12.4',
+42 silly resolved     _shasum: 'ace43aa58d3dcd99e345f0fec2704f216c750bc8',
+42 silly resolved     _from: 'grunt-mocha-test@',
+42 silly resolved     _npmVersion: '2.1.5',
+42 silly resolved     _nodeVersion: '0.10.33',
+42 silly resolved     _npmUser: { name: 'pghalliday', email: 'pghalliday@gmail.com' },
+42 silly resolved     maintainers: [ [Object] ],
+42 silly resolved     dist:
+42 silly resolved      { shasum: 'ace43aa58d3dcd99e345f0fec2704f216c750bc8',
+42 silly resolved        tarball: 'http://registry.npmjs.org/grunt-mocha-test/-/grunt-mocha-test-0.12.4.tgz' },
+42 silly resolved     directories: {},
+42 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-mocha-test/-/grunt-mocha-test-0.12.4.tgz',
+42 silly resolved     readme: 'ERROR: No README data found!' } ]
+43 info install grunt-mocha-test@0.12.4 into /Users/user/Desktop/azure-media-indexer
+44 info installOne grunt-mocha-test@0.12.4
+45 verbose node_modules/grunt-mocha-test unbuild
+46 info preuninstall grunt-mocha-test@0.12.4
+47 info uninstall grunt-mocha-test@0.12.4
+48 verbose true,/Users/user/Desktop/azure-media-indexer/node_modules,/Users/user/Desktop/azure-media-indexer/node_modules unbuild grunt-mocha-test@0.12.4
+49 info postuninstall grunt-mocha-test@0.12.4
+50 verbose tar unpack /Users/user/.npm/grunt-mocha-test/0.12.4/package.tgz
+51 silly lockFile 977dbeb9-er-node-modules-grunt-mocha-test tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+52 verbose lock tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test /Users/user/.npm/977dbeb9-er-node-modules-grunt-mocha-test.lock
+53 silly lockFile b278d1bb-nt-mocha-test-0-12-4-package-tgz tar:///Users/user/.npm/grunt-mocha-test/0.12.4/package.tgz
+54 verbose lock tar:///Users/user/.npm/grunt-mocha-test/0.12.4/package.tgz /Users/user/.npm/b278d1bb-nt-mocha-test-0-12-4-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry tasks/mocha-test.js
+59 silly gunzTarPerm extractEntry tasks/lib/MochaWrapper.js
+60 silly gunzTarPerm extractEntry LICENSE-MIT
+61 silly lockFile 977dbeb9-er-node-modules-grunt-mocha-test tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+62 silly lockFile 977dbeb9-er-node-modules-grunt-mocha-test tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+63 silly lockFile b278d1bb-nt-mocha-test-0-12-4-package-tgz tar:///Users/user/.npm/grunt-mocha-test/0.12.4/package.tgz
+64 silly lockFile b278d1bb-nt-mocha-test-0-12-4-package-tgz tar:///Users/user/.npm/grunt-mocha-test/0.12.4/package.tgz
+65 info preinstall grunt-mocha-test@0.12.4
+66 verbose readDependencies using package.json deps
+67 verbose readDependencies using package.json deps
+68 verbose cache add [ 'hooker@~0.2.3', null ]
+69 verbose cache add name=undefined spec="hooker@~0.2.3" args=["hooker@~0.2.3",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'hooker@~0.2.3',
+70 verbose parsed url   path: 'hooker@~0.2.3',
+70 verbose parsed url   href: 'hooker@~0.2.3' }
+71 verbose cache add [ 'mkdirp@^0.5.0', null ]
+72 verbose cache add name=undefined spec="mkdirp@^0.5.0" args=["mkdirp@^0.5.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'mkdirp@^0.5.0',
+73 verbose parsed url   path: 'mkdirp@^0.5.0',
+73 verbose parsed url   href: 'mkdirp@^0.5.0' }
+74 verbose cache add name="hooker" spec="~0.2.3" args=["hooker","~0.2.3"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '~0.2.3',
+75 verbose parsed url   path: '~0.2.3',
+75 verbose parsed url   href: '~0.2.3' }
+76 verbose addNamed [ 'hooker', '~0.2.3' ]
+77 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+78 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+79 verbose lock hooker@~0.2.3 /Users/user/.npm/2bcd1457-hooker-0-2-3.lock
+80 verbose cache add name="mkdirp" spec="^0.5.0" args=["mkdirp","^0.5.0"]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: '^0.5.0',
+81 verbose parsed url   path: '^0.5.0',
+81 verbose parsed url   href: '^0.5.0' }
+82 verbose addNamed [ 'mkdirp', '^0.5.0' ]
+83 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+84 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+85 verbose lock mkdirp@^0.5.0 /Users/user/.npm/0879e7d7-mkdirp-0-5-0.lock
+86 silly addNameRange { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+87 silly addNameRange { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+88 verbose request where is /hooker
+89 verbose request registry https://registry.npmjs.org/
+90 verbose url raw /hooker
+91 verbose url resolving [ 'https://registry.npmjs.org/', './hooker' ]
+92 verbose url resolved https://registry.npmjs.org/hooker
+93 verbose request where is https://registry.npmjs.org/hooker
+94 info trying registry request attempt 1 at 23:32:00
+95 verbose etag "3W6Z69KPD2QT28LPKI5AT8P77"
+96 http GET https://registry.npmjs.org/hooker
+97 verbose request where is /mkdirp
+98 verbose request registry https://registry.npmjs.org/
+99 verbose url raw /mkdirp
+100 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+101 verbose url resolved https://registry.npmjs.org/mkdirp
+102 verbose request where is https://registry.npmjs.org/mkdirp
+103 info trying registry request attempt 1 at 23:32:00
+104 verbose etag "EN5ZAENBT9LGFGCCQLHAJ8W4X"
+105 http GET https://registry.npmjs.org/mkdirp
+106 http 304 https://registry.npmjs.org/hooker
+107 silly registry.get cb [ 304,
+107 silly registry.get   { date: 'Fri, 19 Dec 2014 07:31:59 GMT',
+107 silly registry.get     server: 'Apache',
+107 silly registry.get     via: '1.1 varnish',
+107 silly registry.get     'last-modified': 'Fri, 19 Dec 2014 07:31:59 GMT',
+107 silly registry.get     'cache-control': 'max-age=60',
+107 silly registry.get     etag: '"3W6Z69KPD2QT28LPKI5AT8P77"',
+107 silly registry.get     age: '15',
+107 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+107 silly registry.get     'x-cache': 'HIT',
+107 silly registry.get     'x-cache-hits': '1',
+107 silly registry.get     'x-timer': 'S1418974319.189514,VS0,VE0',
+107 silly registry.get     vary: 'Accept',
+107 silly registry.get     'content-length': '0',
+107 silly registry.get     'keep-alive': 'timeout=10, max=50',
+107 silly registry.get     connection: 'Keep-Alive' } ]
+108 verbose etag https://registry.npmjs.org/hooker from cache
+109 http 304 https://registry.npmjs.org/mkdirp
+110 silly registry.get cb [ 304,
+110 silly registry.get   { date: 'Fri, 19 Dec 2014 07:31:59 GMT',
+110 silly registry.get     server: 'Apache',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     'last-modified': 'Fri, 19 Dec 2014 07:31:18 GMT',
+110 silly registry.get     'cache-control': 'max-age=60',
+110 silly registry.get     etag: '"EN5ZAENBT9LGFGCCQLHAJ8W4X"',
+110 silly registry.get     age: '51',
+110 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+110 silly registry.get     'x-cache': 'HIT',
+110 silly registry.get     'x-cache-hits': '5',
+110 silly registry.get     'x-timer': 'S1418974319.193063,VS0,VE0',
+110 silly registry.get     vary: 'Accept',
+110 silly registry.get     'content-length': '0',
+110 silly registry.get     'keep-alive': 'timeout=10, max=50',
+110 silly registry.get     connection: 'Keep-Alive' } ]
+111 verbose etag https://registry.npmjs.org/mkdirp from cache
+112 silly addNameRange number 2 { name: 'hooker', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+113 silly addNameRange versions [ 'hooker', [ '0.2.3' ] ]
+114 verbose addNamed [ 'hooker', '0.2.3' ]
+115 verbose addNamed [ '0.2.3', '0.2.3' ]
+116 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+117 verbose lock hooker@0.2.3 /Users/user/.npm/97e6505f-hooker-0-2-3.lock
+118 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+119 silly addNameRange versions [ 'mkdirp',
+119 silly addNameRange   [ '0.0.1',
+119 silly addNameRange     '0.0.2',
+119 silly addNameRange     '0.0.3',
+119 silly addNameRange     '0.0.4',
+119 silly addNameRange     '0.0.5',
+119 silly addNameRange     '0.0.6',
+119 silly addNameRange     '0.0.7',
+119 silly addNameRange     '0.1.0',
+119 silly addNameRange     '0.2.0',
+119 silly addNameRange     '0.2.1',
+119 silly addNameRange     '0.2.2',
+119 silly addNameRange     '0.3.0',
+119 silly addNameRange     '0.3.1',
+119 silly addNameRange     '0.3.2',
+119 silly addNameRange     '0.3.3',
+119 silly addNameRange     '0.3.4',
+119 silly addNameRange     '0.3.5',
+119 silly addNameRange     '0.4.0',
+119 silly addNameRange     '0.4.1',
+119 silly addNameRange     '0.4.2',
+119 silly addNameRange     '0.5.0' ] ]
+120 verbose addNamed [ 'mkdirp', '0.5.0' ]
+121 verbose addNamed [ '0.5.0', '0.5.0' ]
+122 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+123 verbose lock mkdirp@0.5.0 /Users/user/.npm/bf9ae38d-mkdirp-0-5-0.lock
+124 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+125 silly lockFile 97e6505f-hooker-0-2-3 hooker@0.2.3
+126 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+127 silly lockFile 2bcd1457-hooker-0-2-3 hooker@~0.2.3
+128 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+129 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+130 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+131 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+132 silly resolved [ { name: 'hooker',
+132 silly resolved     description: 'Monkey-patch (hook) functions for debugging and stuff.',
+132 silly resolved     version: '0.2.3',
+132 silly resolved     homepage: 'http://github.com/cowboy/javascript-hooker',
+132 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+132 silly resolved     repository:
+132 silly resolved      { type: 'git',
+132 silly resolved        url: 'git://github.com/cowboy/javascript-hooker.git' },
+132 silly resolved     bugs: { url: 'https://github.com/cowboy/javascript-hooker/issues' },
+132 silly resolved     licenses: [ [Object] ],
+132 silly resolved     dependencies: {},
+132 silly resolved     devDependencies: { grunt: '~0.2.1' },
+132 silly resolved     keywords: [ 'patch', 'hook', 'function', 'debug', 'aop' ],
+132 silly resolved     engines: { node: '*' },
+132 silly resolved     main: 'lib/hooker',
+132 silly resolved     scripts: { test: 'grunt test' },
+132 silly resolved     _npmUser: { name: 'cowboy', email: 'cowboy@rj3.net' },
+132 silly resolved     _id: 'hooker@0.2.3',
+132 silly resolved     optionalDependencies: {},
+132 silly resolved     _engineSupported: true,
+132 silly resolved     _npmVersion: '1.1.0-2',
+132 silly resolved     _nodeVersion: 'v0.6.8',
+132 silly resolved     _defaultsLoaded: true,
+132 silly resolved     dist:
+132 silly resolved      { shasum: 'b834f723cc4a242aa65963459df6d984c5d3d959',
+132 silly resolved        tarball: 'http://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz' },
+132 silly resolved     maintainers: [ [Object] ],
+132 silly resolved     directories: {},
+132 silly resolved     _shasum: 'b834f723cc4a242aa65963459df6d984c5d3d959',
+132 silly resolved     _from: 'hooker@~0.2.3',
+132 silly resolved     _resolved: 'https://registry.npmjs.org/hooker/-/hooker-0.2.3.tgz',
+132 silly resolved     readme: 'ERROR: No README data found!' },
+132 silly resolved   { name: 'mkdirp',
+132 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+132 silly resolved     version: '0.5.0',
+132 silly resolved     author:
+132 silly resolved      { name: 'James Halliday',
+132 silly resolved        email: 'mail@substack.net',
+132 silly resolved        url: 'http://substack.net' },
+132 silly resolved     main: './index',
+132 silly resolved     keywords: [ 'mkdir', 'directory' ],
+132 silly resolved     repository:
+132 silly resolved      { type: 'git',
+132 silly resolved        url: 'https://github.com/substack/node-mkdirp.git' },
+132 silly resolved     scripts: { test: 'tap test/*.js' },
+132 silly resolved     dependencies: { minimist: '0.0.8' },
+132 silly resolved     devDependencies: { tap: '~0.4.0', 'mock-fs': '~2.2.0' },
+132 silly resolved     bin: { mkdirp: 'bin/cmd.js' },
+132 silly resolved     license: 'MIT',
+132 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+132 silly resolved     homepage: 'https://github.com/substack/node-mkdirp',
+132 silly resolved     _id: 'mkdirp@0.5.0',
+132 silly resolved     dist:
+132 silly resolved      { shasum: '1d73076a6df986cd9344e15e71fcc05a4c9abf12',
+132 silly resolved        tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz' },
+132 silly resolved     _from: 'mkdirp@^0.5.0',
+132 silly resolved     _npmVersion: '1.4.3',
+132 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+132 silly resolved     maintainers: [ [Object] ],
+132 silly resolved     directories: {},
+132 silly resolved     _shasum: '1d73076a6df986cd9344e15e71fcc05a4c9abf12',
+132 silly resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.0.tgz',
+132 silly resolved     readme: 'ERROR: No README data found!' } ]
+133 info install hooker@0.2.3 into /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+134 info install mkdirp@0.5.0 into /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+135 info installOne hooker@0.2.3
+136 info installOne mkdirp@0.5.0
+137 verbose node_modules/grunt-mocha-test/node_modules/hooker unbuild
+138 verbose node_modules/grunt-mocha-test/node_modules/mkdirp unbuild
+139 verbose tar unpack /Users/user/.npm/hooker/0.2.3/package.tgz
+140 silly lockFile 2174a54e-t-mocha-test-node-modules-hooker tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker
+141 verbose lock tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker /Users/user/.npm/2174a54e-t-mocha-test-node-modules-hooker.lock
+142 silly lockFile 6f770456-ser-npm-hooker-0-2-3-package-tgz tar:///Users/user/.npm/hooker/0.2.3/package.tgz
+143 verbose lock tar:///Users/user/.npm/hooker/0.2.3/package.tgz /Users/user/.npm/6f770456-ser-npm-hooker-0-2-3-package-tgz.lock
+144 verbose tar unpack /Users/user/.npm/mkdirp/0.5.0/package.tgz
+145 silly lockFile 4848d2ba-t-mocha-test-node-modules-mkdirp tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+146 verbose lock tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp /Users/user/.npm/4848d2ba-t-mocha-test-node-modules-mkdirp.lock
+147 silly lockFile 1a3c16b8-ser-npm-mkdirp-0-5-0-package-tgz tar:///Users/user/.npm/mkdirp/0.5.0/package.tgz
+148 verbose lock tar:///Users/user/.npm/mkdirp/0.5.0/package.tgz /Users/user/.npm/1a3c16b8-ser-npm-mkdirp-0-5-0-package-tgz.lock
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm modes [ '755', '644' ]
+151 silly gunzTarPerm extractEntry child.js
+152 silly gunzTarPerm extractEntry dist/
+153 silly gunzTarPerm extractEntry dist/ba-hooker.js
+154 silly gunzTarPerm extractEntry dist/ba-hooker.min.js
+155 silly gunzTarPerm extractEntry grunt.js
+156 silly gunzTarPerm extractEntry lib/
+157 silly gunzTarPerm extractEntry lib/hooker.js
+158 silly gunzTarPerm extractEntry package.json
+159 silly gunzTarPerm extractEntry .npmignore
+160 silly gunzTarPerm extractEntry LICENSE
+161 silly gunzTarPerm extractEntry LICENSE-MIT
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm extractEntry index.js
+164 silly gunzTarPerm extractEntry .travis.yml
+165 silly gunzTarPerm extractEntry bin/cmd.js
+166 silly gunzTarPerm extractEntry bin/usage.txt
+167 silly gunzTarPerm extractEntry parent.js
+168 silly gunzTarPerm extractEntry README.md
+169 silly gunzTarPerm extractEntry examples/pow.js
+170 silly gunzTarPerm extractEntry readme.markdown
+171 silly gunzTarPerm extractEntry test/
+172 silly gunzTarPerm extractEntry test/hooker_test.js
+173 silly gunzTarPerm extractEntry test/chmod.js
+174 silly gunzTarPerm extractEntry test/opts_fs_sync.js
+175 silly gunzTarPerm extractEntry test/perm.js
+176 silly gunzTarPerm extractEntry test/perm_sync.js
+177 silly gunzTarPerm extractEntry test/opts_fs.js
+178 silly gunzTarPerm extractEntry test/rel.js
+179 silly gunzTarPerm extractEntry test/return.js
+180 silly gunzTarPerm extractEntry test/return_sync.js
+181 silly gunzTarPerm extractEntry test/root.js
+182 silly gunzTarPerm extractEntry test/sync.js
+183 silly gunzTarPerm extractEntry test/mkdirp.js
+184 silly gunzTarPerm extractEntry test/umask.js
+185 silly gunzTarPerm extractEntry test/clobber.js
+186 silly gunzTarPerm extractEntry test/umask_sync.js
+187 silly gunzTarPerm extractEntry test/race.js
+188 silly lockFile 2174a54e-t-mocha-test-node-modules-hooker tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker
+189 silly lockFile 2174a54e-t-mocha-test-node-modules-hooker tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker
+190 silly lockFile 6f770456-ser-npm-hooker-0-2-3-package-tgz tar:///Users/user/.npm/hooker/0.2.3/package.tgz
+191 silly lockFile 6f770456-ser-npm-hooker-0-2-3-package-tgz tar:///Users/user/.npm/hooker/0.2.3/package.tgz
+192 info preinstall hooker@0.2.3
+193 verbose readDependencies using package.json deps
+194 verbose readDependencies using package.json deps
+195 silly resolved []
+196 verbose about to build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker
+197 info build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/hooker
+198 verbose linkStuff [ false,
+198 verbose linkStuff   false,
+198 verbose linkStuff   false,
+198 verbose linkStuff   '/Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules' ]
+199 info linkStuff hooker@0.2.3
+200 verbose linkBins hooker@0.2.3
+201 verbose linkMans hooker@0.2.3
+202 verbose rebuildBundles hooker@0.2.3
+203 info install hooker@0.2.3
+204 info postinstall hooker@0.2.3
+205 silly lockFile 4848d2ba-t-mocha-test-node-modules-mkdirp tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+206 silly lockFile 4848d2ba-t-mocha-test-node-modules-mkdirp tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+207 silly lockFile 1a3c16b8-ser-npm-mkdirp-0-5-0-package-tgz tar:///Users/user/.npm/mkdirp/0.5.0/package.tgz
+208 silly lockFile 1a3c16b8-ser-npm-mkdirp-0-5-0-package-tgz tar:///Users/user/.npm/mkdirp/0.5.0/package.tgz
+209 info preinstall mkdirp@0.5.0
+210 verbose readDependencies using package.json deps
+211 verbose readDependencies using package.json deps
+212 verbose cache add [ 'minimist@0.0.8', null ]
+213 verbose cache add name=undefined spec="minimist@0.0.8" args=["minimist@0.0.8",null]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: 'minimist@0.0.8',
+214 verbose parsed url   path: 'minimist@0.0.8',
+214 verbose parsed url   href: 'minimist@0.0.8' }
+215 verbose cache add name="minimist" spec="0.0.8" args=["minimist","0.0.8"]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: '0.0.8',
+216 verbose parsed url   path: '0.0.8',
+216 verbose parsed url   href: '0.0.8' }
+217 verbose addNamed [ 'minimist', '0.0.8' ]
+218 verbose addNamed [ '0.0.8', '0.0.8' ]
+219 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+220 verbose lock minimist@0.0.8 /Users/user/.npm/22c6b485-minimist-0-0-8.lock
+221 verbose request where is /minimist
+222 verbose request registry https://registry.npmjs.org/
+223 verbose url raw /minimist
+224 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+225 verbose url resolved https://registry.npmjs.org/minimist
+226 verbose request where is https://registry.npmjs.org/minimist
+227 info trying registry request attempt 1 at 23:32:01
+228 verbose etag "BS0Q32S60JQ0OJSPMH70TUA4X"
+229 http GET https://registry.npmjs.org/minimist
+230 http 304 https://registry.npmjs.org/minimist
+231 silly registry.get cb [ 304,
+231 silly registry.get   { date: 'Fri, 19 Dec 2014 07:31:59 GMT',
+231 silly registry.get     server: 'Apache',
+231 silly registry.get     via: '1.1 varnish',
+231 silly registry.get     'last-modified': 'Fri, 19 Dec 2014 07:31:23 GMT',
+231 silly registry.get     'cache-control': 'max-age=60',
+231 silly registry.get     etag: '"BS0Q32S60JQ0OJSPMH70TUA4X"',
+231 silly registry.get     age: '48',
+231 silly registry.get     'x-served-by': 'cache-lax1435-LAX',
+231 silly registry.get     'x-cache': 'HIT',
+231 silly registry.get     'x-cache-hits': '3',
+231 silly registry.get     'x-timer': 'S1418974319.592885,VS0,VE0',
+231 silly registry.get     vary: 'Accept',
+231 silly registry.get     'content-length': '0',
+231 silly registry.get     'keep-alive': 'timeout=10, max=50',
+231 silly registry.get     connection: 'Keep-Alive' } ]
+232 verbose etag https://registry.npmjs.org/minimist from cache
+233 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+234 silly lockFile 22c6b485-minimist-0-0-8 minimist@0.0.8
+235 silly resolved [ { name: 'minimist',
+235 silly resolved     version: '0.0.8',
+235 silly resolved     description: 'parse argument options',
+235 silly resolved     main: 'index.js',
+235 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+235 silly resolved     scripts: { test: 'tap test/*.js' },
+235 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+235 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+235 silly resolved     homepage: 'https://github.com/substack/minimist',
+235 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+235 silly resolved     author:
+235 silly resolved      { name: 'James Halliday',
+235 silly resolved        email: 'mail@substack.net',
+235 silly resolved        url: 'http://substack.net' },
+235 silly resolved     license: 'MIT',
+235 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+235 silly resolved     _id: 'minimist@0.0.8',
+235 silly resolved     dist:
+235 silly resolved      { shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+235 silly resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz' },
+235 silly resolved     _from: 'minimist@0.0.8',
+235 silly resolved     _npmVersion: '1.4.3',
+235 silly resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+235 silly resolved     maintainers: [ [Object] ],
+235 silly resolved     directories: {},
+235 silly resolved     _shasum: '857fcabfc3397d2625b8228262e86aa7a011b05d',
+235 silly resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+235 silly resolved     readme: 'ERROR: No README data found!' } ]
+236 info install minimist@0.0.8 into /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+237 info installOne minimist@0.0.8
+238 verbose node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist unbuild
+239 verbose tar unpack /Users/user/.npm/minimist/0.0.8/package.tgz
+240 silly lockFile 3f3aa242-les-mkdirp-node-modules-minimist tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist
+241 verbose lock tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist /Users/user/.npm/3f3aa242-les-mkdirp-node-modules-minimist.lock
+242 silly lockFile 49597df9-r-npm-minimist-0-0-8-package-tgz tar:///Users/user/.npm/minimist/0.0.8/package.tgz
+243 verbose lock tar:///Users/user/.npm/minimist/0.0.8/package.tgz /Users/user/.npm/49597df9-r-npm-minimist-0-0-8-package-tgz.lock
+244 silly gunzTarPerm modes [ '755', '644' ]
+245 silly gunzTarPerm extractEntry package.json
+246 silly gunzTarPerm extractEntry LICENSE
+247 silly gunzTarPerm extractEntry index.js
+248 silly gunzTarPerm extractEntry .travis.yml
+249 silly gunzTarPerm extractEntry example/parse.js
+250 silly gunzTarPerm extractEntry readme.markdown
+251 silly gunzTarPerm extractEntry test/dash.js
+252 silly gunzTarPerm extractEntry test/default_bool.js
+253 silly gunzTarPerm extractEntry test/dotted.js
+254 silly gunzTarPerm extractEntry test/long.js
+255 silly gunzTarPerm extractEntry test/parse.js
+256 silly gunzTarPerm extractEntry test/parse_modified.js
+257 silly gunzTarPerm extractEntry test/short.js
+258 silly gunzTarPerm extractEntry test/whitespace.js
+259 silly lockFile 3f3aa242-les-mkdirp-node-modules-minimist tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist
+260 silly lockFile 3f3aa242-les-mkdirp-node-modules-minimist tar:///Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist
+261 silly lockFile 49597df9-r-npm-minimist-0-0-8-package-tgz tar:///Users/user/.npm/minimist/0.0.8/package.tgz
+262 silly lockFile 49597df9-r-npm-minimist-0-0-8-package-tgz tar:///Users/user/.npm/minimist/0.0.8/package.tgz
+263 info preinstall minimist@0.0.8
+264 verbose readDependencies using package.json deps
+265 verbose readDependencies using package.json deps
+266 silly resolved []
+267 verbose about to build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist
+268 info build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules/minimist
+269 verbose linkStuff [ false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   false,
+269 verbose linkStuff   '/Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp/node_modules' ]
+270 info linkStuff minimist@0.0.8
+271 verbose linkBins minimist@0.0.8
+272 verbose linkMans minimist@0.0.8
+273 verbose rebuildBundles minimist@0.0.8
+274 info install minimist@0.0.8
+275 info postinstall minimist@0.0.8
+276 verbose about to build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+277 info build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/mkdirp
+278 verbose linkStuff [ false,
+278 verbose linkStuff   false,
+278 verbose linkStuff   false,
+278 verbose linkStuff   '/Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules' ]
+279 info linkStuff mkdirp@0.5.0
+280 verbose linkBins mkdirp@0.5.0
+281 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+281 verbose link bins   '/Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test/node_modules/.bin',
+281 verbose link bins   false ]
+282 verbose linkMans mkdirp@0.5.0
+283 verbose rebuildBundles mkdirp@0.5.0
+284 verbose rebuildBundles [ 'minimist' ]
+285 info install mkdirp@0.5.0
+286 info postinstall mkdirp@0.5.0
+287 verbose about to build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+288 info build /Users/user/Desktop/azure-media-indexer/node_modules/grunt-mocha-test
+289 verbose linkStuff [ false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   '/Users/user/Desktop/azure-media-indexer/node_modules' ]
+290 info linkStuff grunt-mocha-test@0.12.4
+291 verbose linkBins grunt-mocha-test@0.12.4
+292 verbose linkMans grunt-mocha-test@0.12.4
+293 verbose rebuildBundles grunt-mocha-test@0.12.4
+294 verbose rebuildBundles [ '.bin', 'hooker', 'mkdirp' ]
+295 info install grunt-mocha-test@0.12.4
+296 info postinstall grunt-mocha-test@0.12.4
+297 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/coffee-script/node_modules/uglify-js requires async@'~0.2.6' but will load
+297 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+297 warn unmet dependency which is version 0.1.22
+298 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires mkdirp@'0.3.5' but will load
+298 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp,
+298 warn unmet dependency which is version 0.5.0
+299 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+299 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob,
+299 warn unmet dependency which is version 3.2.11
+300 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/tap requires nopt@'~2' but will load
+300 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+300 warn unmet dependency which is version 1.0.10
+301 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/tap requires mkdirp@'~0.3' but will load
+301 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp,
+301 warn unmet dependency which is version 0.5.0
+302 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/through/node_modules/tape requires deep-equal@'~0.1.0' but will load
+302 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/deep-equal,
+302 warn unmet dependency which is version 0.0.0
+303 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/tap requires nopt@'~2' but will load
+303 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+303 warn unmet dependency which is version 1.0.10
+304 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/meta-test requires curry@'0.0.x' but will load
+304 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/curry,
+304 warn unmet dependency which is version 1.2.0
+305 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/ctrlflow requires d-utils@'~1.4' but will load
+305 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/d-utils,
+305 warn unmet dependency which is version 2.1.1
+306 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/ls-r requires d-utils@'~2.3' but will load
+306 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/traverse/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/d-utils,
+306 warn unmet dependency which is version 2.1.1
+307 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires deep-equal@'~0.0.0' but will load
+307 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/tape/node_modules/deep-equal,
+307 warn unmet dependency which is version 0.1.2
+308 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires glob@'~3.2.1' but will load
+308 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+308 warn unmet dependency which is version 3.1.21
+309 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires nopt@'~2' but will load
+309 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+309 warn unmet dependency which is version 1.0.10
+310 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires commander@'0.6.1' but will load
+310 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/commander,
+310 warn unmet dependency which is version 2.0.0
+311 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires growl@'1.5.x' but will load
+311 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/growl,
+311 warn unmet dependency which is version 1.7.0
+312 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires jade@'0.26.3' but will load
+312 warn unmet dependency undefined,
+312 warn unmet dependency which is version undefined
+313 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires diff@'1.0.2' but will load
+313 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff,
+313 warn unmet dependency which is version 1.0.7
+314 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires debug@'*' but will load
+314 warn unmet dependency undefined,
+314 warn unmet dependency which is version undefined
+315 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/lru-cache/node_modules/weak/node_modules/mocha/node_modules/diff/node_modules/mocha requires mkdirp@'0.3.3' but will load
+315 warn unmet dependency undefined,
+315 warn unmet dependency which is version undefined
+316 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/tap requires mkdirp@'~0.3' but will load
+316 warn unmet dependency undefined,
+316 warn unmet dependency which is version undefined
+317 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/through/node_modules/tape requires deep-equal@'~0.1.0' but will load
+317 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/deep-equal,
+317 warn unmet dependency which is version 0.0.0
+318 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/through/node_modules/tape requires inherits@'~2.0.1' but will load
+318 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/inherits,
+318 warn unmet dependency which is version 1.0.0
+319 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd requires ctrlflow@'~4.1' but will load
+319 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow,
+319 warn unmet dependency which is version 0.0.3
+320 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/meta-test requires curry@'0.0.x' but will load
+320 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/curry,
+320 warn unmet dependency which is version 1.2.0
+321 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/curry/node_modules/browserify requires through@'~2.2.0' but will load
+321 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through,
+321 warn unmet dependency which is version 2.3.6
+322 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/curry/node_modules/uglify-js requires async@'~0.2.6' but will load
+322 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+322 warn unmet dependency which is version 0.1.22
+323 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/ctrlflow requires d-utils@'~1.4' but will load
+323 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/deep-is/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/d-utils,
+323 warn unmet dependency which is version 2.1.1
+324 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires deep-equal@'~0.0.0' but will load
+324 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/tape/node_modules/deep-equal,
+324 warn unmet dependency which is version 0.1.2
+325 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires glob@'~3.2.1' but will load
+325 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+325 warn unmet dependency which is version 3.1.21
+326 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/tape/node_modules/resumer/node_modules/tap requires nopt@'~2' but will load
+326 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+326 warn unmet dependency which is version 1.0.10
+327 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/meta-test requires curry@'0.0.x' but will load
+327 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/ctrlflow/node_modules/curry,
+327 warn unmet dependency which is version 1.2.0
+328 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/ctrlflow requires d-utils@'~1.4' but will load
+328 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/from/node_modules/asynct/node_modules/test-cmd/node_modules/d-utils,
+328 warn unmet dependency which is version 2.1.1
+329 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/stream-spec/node_modules/macgyver/node_modules/synct/node_modules/test-cmd/node_modules/ctrlflow requires d-utils@'~1.4' but will load
+329 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/difflet/node_modules/ent/node_modules/tape/node_modules/through/node_modules/stream-spec/node_modules/macgyver/node_modules/synct/node_modules/test-cmd/node_modules/d-utils,
+329 warn unmet dependency which is version 2.1.1
+330 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/hooker/node_modules/grunt requires semver@'~1.0.13' but will load
+330 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/semver,
+330 warn unmet dependency which is version 2.1.0
+331 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/package/node_modules/mocha/node_modules/debug/node_modules/browserify requires glob@'^4.0.5' but will load
+331 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+331 warn unmet dependency which is version 3.1.21
+332 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/package/node_modules/mocha/node_modules/debug/node_modules/ms/node_modules/serve requires commander@'0.6.1' but will load
+332 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/package/node_modules/mocha/node_modules/commander,
+332 warn unmet dependency which is version 0.3.2
+333 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/package/node_modules/mocha/node_modules/debug/node_modules/ms/node_modules/serve/node_modules/stylus requires glob@'3.2.x' but will load
+333 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+333 warn unmet dependency which is version 3.1.21
+334 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/mocha/node_modules/jade requires commander@'0.6.1' but will load
+334 warn unmet dependency undefined,
+334 warn unmet dependency which is version undefined
+335 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/mocha/node_modules/coffee-script/node_modules/uglify-js requires async@'~0.2.6' but will load
+335 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+335 warn unmet dependency which is version 0.1.22
+336 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/istanbul requires nopt@'3.x' but will load
+336 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+336 warn unmet dependency which is version 1.0.10
+337 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/istanbul requires async@'0.9.x' but will load
+337 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+337 warn unmet dependency which is version 0.1.22
+338 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/istanbul requires js-yaml@'3.x' but will load
+338 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+338 warn unmet dependency which is version 2.0.5
+339 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma requires glob@'~3.2.7' but will load
+339 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+339 warn unmet dependency which is version 3.1.21
+340 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma requires lodash@'~2.4.1' but will load
+340 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+340 warn unmet dependency which is version 0.9.2
+341 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/mocha requires glob@'3.2.3' but will load
+341 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+341 warn unmet dependency which is version 3.1.21
+342 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/deep-eql/node_modules/karma requires coffee-script@'~1.6' but will load
+342 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/coffee-script,
+342 warn unmet dependency which is version 1.3.3
+343 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/deep-eql/node_modules/karma requires rimraf@'~2.1' but will load
+343 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/rimraf,
+343 warn unmet dependency which is version 2.2.8
+344 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/deep-eql/node_modules/karma requires colors@'0.6.0-1' but will load
+344 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/colors,
+344 warn unmet dependency which is version 0.6.2
+345 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/deep-eql/node_modules/karma requires lodash@'~1.1' but will load
+345 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+345 warn unmet dependency which is version 0.9.2
+346 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/deep-eql/node_modules/simple-assert/node_modules/mocha-phantomjs requires mocha@'~1.20.1' but will load
+346 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/mocha,
+346 warn unmet dependency which is version 1.21.5
+347 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha requires glob@'3.2.3' but will load
+347 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+347 warn unmet dependency which is version 3.1.21
+348 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/eslint requires esprima@'^1.2.0' but will load
+348 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/esprima,
+348 warn unmet dependency which is version 1.0.4
+349 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/eslint requires glob@'~3.2.7' but will load
+349 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+349 warn unmet dependency which is version 3.1.21
+350 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/eslint requires js-yaml@'~3.0.1' but will load
+350 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+350 warn unmet dependency which is version 2.0.5
+351 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/uglify-js requires async@'~0.2.6' but will load
+351 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+351 warn unmet dependency which is version 0.1.22
+352 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/phantomjs/node_modules/npmconf requires nopt@'2' but will load
+352 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+352 warn unmet dependency which is version 1.0.10
+353 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/phantomjs/node_modules/npmconf requires semver@'~1.1.0' but will load
+353 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/semver,
+353 warn unmet dependency which is version 2.1.0
+354 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/phantomjs/node_modules/mkdirp/node_modules/tap requires glob@'~3.2.1' but will load
+354 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+354 warn unmet dependency which is version 3.1.21
+355 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/node_modules/phantomjs/node_modules/mkdirp/node_modules/tap requires nopt@'~2' but will load
+355 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+355 warn unmet dependency which is version 1.0.10
+356 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/uglify-js requires async@'~0.2.6' but will load
+356 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+356 warn unmet dependency which is version 0.1.22
+357 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/tape requires glob@'^3.2.9' but will load
+357 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+357 warn unmet dependency which is version 3.1.21
+358 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/vinyl requires lodash@'^2.4.1' but will load
+358 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+358 warn unmet dependency which is version 0.9.2
+359 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps requires through2@'^0.6.1' but will load
+359 warn unmet dependency undefined,
+359 warn unmet dependency which is version undefined
+360 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps requires vinyl@'^0.4.2' but will load
+360 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/vinyl,
+360 warn unmet dependency which is version 0.3.3
+361 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-concat/node_modules/gulp-util requires dateformat@'^1.0.7-1.2.3' but will load
+361 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/dateformat,
+361 warn unmet dependency which is version 1.0.2-1.2.3
+362 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-concat/node_modules/gulp-util requires through2@'^0.5.0' but will load
+362 warn unmet dependency undefined,
+362 warn unmet dependency which is version undefined
+363 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-concat/node_modules/gulp-util requires vinyl@'^0.2.1' but will load
+363 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/vinyl,
+363 warn unmet dependency which is version 0.3.3
+364 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-concat/node_modules/stream-assert requires through2@'^0.6.1' but will load
+364 warn unmet dependency undefined,
+364 warn unmet dependency which is version undefined
+365 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps/node_modules/faucet requires through2@'~0.2.3' but will load
+365 warn unmet dependency undefined,
+365 warn unmet dependency which is version undefined
+366 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps/node_modules/faucet requires tape@'~2.3.2' but will load
+366 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/tape,
+366 warn unmet dependency which is version 2.14.0
+367 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps/node_modules/jshint requires minimatch@'1.0.x' but will load
+367 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+367 warn unmet dependency which is version 0.2.14
+368 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-uglify/node_modules/gulp-sourcemaps/node_modules/jshint requires underscore@'1.6.x' but will load
+368 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+368 warn unmet dependency which is version 1.7.0
+369 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/gulp-util requires chalk@'^0.5.0' but will load
+369 warn unmet dependency undefined,
+369 warn unmet dependency which is version undefined
+370 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/gulp-util requires dateformat@'^1.0.7-1.2.3' but will load
+370 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/dateformat,
+370 warn unmet dependency which is version 1.0.2-1.2.3
+371 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/gulp-util requires lodash@'^2.4.1' but will load
+371 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+371 warn unmet dependency which is version 0.9.2
+372 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/istanbul requires esprima@'1.2.x' but will load
+372 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/esprima,
+372 warn unmet dependency which is version 1.0.4
+373 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/istanbul requires nopt@'3.x' but will load
+373 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+373 warn unmet dependency which is version 1.0.10
+374 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/istanbul requires async@'0.9.x' but will load
+374 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+374 warn unmet dependency which is version 0.1.22
+375 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/istanbul requires js-yaml@'3.x' but will load
+375 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+375 warn unmet dependency which is version 2.0.5
+376 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/jshint-stylish requires chalk@'^0.5.1' but will load
+376 warn unmet dependency undefined,
+376 warn unmet dependency which is version undefined
+377 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/deprecated/node_modules/jshint requires underscore@'1.4.x' but will load
+377 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+377 warn unmet dependency which is version 1.7.0
+378 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/minimist/node_modules/tap requires glob@'~3.2.1' but will load
+378 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+378 warn unmet dependency which is version 3.1.21
+379 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/minimist/node_modules/tap requires nopt@'~2' but will load
+379 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+379 warn unmet dependency which is version 1.0.10
+380 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/orchestrator/node_modules/gulp-jshint requires gulp-util@'^2.2.5' but will load
+380 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/gulp-util,
+380 warn unmet dependency which is version 3.0.1
+381 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/orchestrator/node_modules/gulp-jshint requires minimatch@'^0.3.0' but will load
+381 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+381 warn unmet dependency which is version 0.2.14
+382 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/orchestrator/node_modules/gulp-jshint requires lodash@'^2.4.1' but will load
+382 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+382 warn unmet dependency which is version 0.9.2
+383 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/orchestrator/node_modules/mocha requires mkdirp@'0.3.5' but will load
+383 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/mkdirp,
+383 warn unmet dependency which is version 0.5.0
+384 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/orchestrator/node_modules/mocha requires glob@'3.2.3' but will load
+384 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+384 warn unmet dependency which is version 3.1.21
+385 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/tildify/node_modules/ava requires chalk@'^0.5.0' but will load
+385 warn unmet dependency undefined,
+385 warn unmet dependency which is version undefined
+386 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/v8flags/node_modules/mocha requires glob@'3.2.3' but will load
+386 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+386 warn unmet dependency which is version 3.1.21
+387 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/cover requires underscore@'1.2.x' but will load
+387 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+387 warn unmet dependency which is version 1.7.0
+388 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/cover requires underscore.string@'2.0.x' but will load
+388 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string,
+388 warn unmet dependency which is version 2.4.0
+389 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/jasmine-node requires mkdirp@'~0.3.5' but will load
+389 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/mkdirp,
+389 warn unmet dependency which is version 0.5.0
+390 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/jshint requires underscore@'1.4.x' but will load
+390 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+390 warn unmet dependency which is version 1.7.0
+391 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/promises-aplus-tests requires mocha@'~1.11.0' but will load
+391 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha,
+391 warn unmet dependency which is version 2.0.1
+392 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/q/node_modules/promises-aplus-tests requires underscore@'~1.4.4' but will load
+392 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+392 warn unmet dependency which is version 1.7.0
+393 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/jade requires commander@'0.6.1' but will load
+393 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/commander,
+393 warn unmet dependency which is version 2.3.0
+394 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/jade requires mkdirp@'0.3.0' but will load
+394 warn unmet dependency undefined,
+394 warn unmet dependency which is version undefined
+395 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/coffee-script requires mkdirp@'~0.3.5' but will load
+395 warn unmet dependency undefined,
+395 warn unmet dependency which is version undefined
+396 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/debug/node_modules/browserify requires glob@'^4.0.5' but will load
+396 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+396 warn unmet dependency which is version 3.1.21
+397 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/diff/node_modules/mocha requires commander@'0.6.1' but will load
+397 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/commander,
+397 warn unmet dependency which is version 2.3.0
+398 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/diff/node_modules/mocha requires growl@'1.5.x' but will load
+398 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/growl,
+398 warn unmet dependency which is version 1.8.1
+399 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/diff/node_modules/mocha requires diff@'1.0.2' but will load
+399 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/diff,
+399 warn unmet dependency which is version 1.0.8
+400 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/mocha/node_modules/diff/node_modules/mocha requires mkdirp@'0.3.3' but will load
+400 warn unmet dependency undefined,
+400 warn unmet dependency which is version undefined
+401 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/jshint-stylish/node_modules/log-symbols requires chalk@'^0.5.1' but will load
+401 warn unmet dependency undefined,
+401 warn unmet dependency which is version undefined
+402 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp/node_modules/jshint-stylish/node_modules/log-symbols/node_modules/ava requires chalk@'^0.5.0' but will load
+402 warn unmet dependency undefined,
+402 warn unmet dependency which is version undefined
+403 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/mocha requires glob@'3.2.3' but will load
+403 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+403 warn unmet dependency which is version 3.1.21
+404 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/coveralls requires js-yaml@'3.0.1' but will load
+404 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+404 warn unmet dependency which is version 2.0.5
+405 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/istanbul requires esprima@'1.2.x' but will load
+405 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/esprima,
+405 warn unmet dependency which is version 1.0.4
+406 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/istanbul requires nopt@'3.x' but will load
+406 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+406 warn unmet dependency which is version 1.0.10
+407 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/istanbul requires async@'0.9.x' but will load
+407 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+407 warn unmet dependency which is version 0.1.22
+408 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/istanbul requires js-yaml@'3.x' but will load
+408 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+408 warn unmet dependency which is version 2.0.5
+409 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/jshint requires minimatch@'1.0.x' but will load
+409 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+409 warn unmet dependency which is version 0.2.14
+410 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/gulp-util/node_modules/jshint requires underscore@'1.6.x' but will load
+410 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+410 warn unmet dependency which is version 1.7.0
+411 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/through2/node_modules/stream-spigot/node_modules/concat-stream requires readable-stream@'~1.1.9' but will load
+411 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/through2/node_modules/readable-stream,
+411 warn unmet dependency which is version 1.0.33
+412 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-clean/node_modules/through2/node_modules/stream-spigot/node_modules/tape requires glob@'~3.2.9' but will load
+412 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+412 warn unmet dependency which is version 3.1.21
+413 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-util requires dateformat@'^1.0.7-1.2.3' but will load
+413 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/dateformat,
+413 warn unmet dependency which is version 1.0.2-1.2.3
+414 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-util requires lodash@'^2.4.1' but will load
+414 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+414 warn unmet dependency which is version 0.9.2
+415 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-jshint requires lodash@'^2.4.1' but will load
+415 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+415 warn unmet dependency which is version 0.9.2
+416 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/through2/node_modules/tape requires glob@'^3.2.9' but will load
+416 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+416 warn unmet dependency which is version 3.1.21
+417 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/through2/node_modules/stream-spigot/node_modules/tape requires glob@'~3.2.9' but will load
+417 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+417 warn unmet dependency which is version 3.1.21
+418 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/through2/node_modules/stream-spigot/node_modules/concat-stream requires readable-stream@'~1.1.9' but will load
+418 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/through2/node_modules/readable-stream,
+418 warn unmet dependency which is version 1.0.33
+419 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-jshint/node_modules/jshint requires underscore@'1.6.x' but will load
+419 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore,
+419 warn unmet dependency which is version 1.7.0
+420 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-jshint/node_modules/rcloader requires lodash@'~2.4.1' but will load
+420 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+420 warn unmet dependency which is version 0.9.2
+421 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-jshint/node_modules/mocha requires glob@'3.2.3' but will load
+421 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+421 warn unmet dependency which is version 3.1.21
+422 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/node_modules/gulp-qunit/node_modules/gulp-mocha/node_modules/mocha requires glob@'3.2.3' but will load
+422 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+422 warn unmet dependency which is version 3.1.21
+423 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/superagent requires debug@'~0.7.2' but will load
+423 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/debug,
+423 warn unmet dependency which is version 2.1.0
+424 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/debug/node_modules/browserify requires glob@'^4.0.5' but will load
+424 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+424 warn unmet dependency which is version 3.1.21
+425 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/component-ls/node_modules/archy/node_modules/tap requires nopt@'~2' but will load
+425 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+425 warn unmet dependency which is version 1.0.10
+426 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/component-ls/node_modules/archy/node_modules/tap requires mkdirp@'~0.3' but will load
+426 warn unmet dependency undefined,
+426 warn unmet dependency which is version undefined
+427 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/tiny-lr-fork/node_modules/noptify requires nopt@'~2.0.0' but will load
+427 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+427 warn unmet dependency which is version 1.0.10
+428 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/tiny-lr-fork/node_modules/mocha requires commander@'0.6.1' but will load
+428 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/commander,
+428 warn unmet dependency which is version 2.5.1
+429 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/tiny-lr-fork/node_modules/mocha requires mkdirp@'0.3.3' but will load
+429 warn unmet dependency undefined,
+429 warn unmet dependency which is version undefined
+430 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/tiny-lr-fork/node_modules/supertest requires superagent@'0.10.0' but will load
+430 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/component/node_modules/superagent,
+430 warn unmet dependency which is version 0.17.0
+431 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-mocha/node_modules/grunt-karma requires lodash@'~2.4.1' but will load
+431 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+431 warn unmet dependency which is version 0.9.2
+432 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-mocha/node_modules/grunt-bump requires semver@'~2.3.0' but will load
+432 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/semver,
+432 warn unmet dependency which is version 2.1.0
+433 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/wd requires async@'~0.9.0' but will load
+433 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+433 warn unmet dependency which is version 0.1.22
+434 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/wd requires lodash@'~2.4.1' but will load
+434 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+434 warn unmet dependency which is version 0.9.2
+435 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/wd requires q@'~1.0.1' but will load
+435 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/q,
+435 warn unmet dependency which is version 0.9.7
+436 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/wd requires underscore.string@'~2.3.3' but will load
+436 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/underscore.string,
+436 warn unmet dependency which is version 2.2.1
+437 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/sauce-connect-launcher requires lodash@'2.4.1' but will load
+437 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+437 warn unmet dependency which is version 0.9.2
+438 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/sauce-connect-launcher requires async@'~0.9.0' but will load
+438 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+438 warn unmet dependency which is version 0.1.22
+439 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/grunt-bump requires semver@'~2.3.0' but will load
+439 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/semver,
+439 warn unmet dependency which is version 2.1.0
+440 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/q/node_modules/promises-aplus-tests requires mocha@'~1.11.0' but will load
+440 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/mocha,
+440 warn unmet dependency which is version 1.21.5
+441 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/q/node_modules/promises-aplus-tests requires sinon@'~1.7.3' but will load
+441 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/sinon,
+441 warn unmet dependency which is version 1.2.0
+442 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/wd requires async@'~0.9.0' but will load
+442 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+442 warn unmet dependency which is version 0.1.22
+443 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/wd requires lodash@'~2.4.1' but will load
+443 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+443 warn unmet dependency which is version 0.9.2
+444 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/wd requires q@'~1.0.1' but will load
+444 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/q,
+444 warn unmet dependency which is version 0.9.7
+445 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/wd requires underscore.string@'~2.3.3' but will load
+445 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/underscore.string,
+445 warn unmet dependency which is version 2.2.1
+446 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/sauce-connect-launcher requires lodash@'~1.3.1' but will load
+446 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/lodash,
+446 warn unmet dependency which is version 0.9.2
+447 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/karma-sauce-launcher/node_modules/sauce-connect-launcher requires async@'~0.2.9' but will load
+447 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+447 warn unmet dependency which is version 0.1.22
+448 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/grunt-bump/node_modules/grunt-contrib-nodeunit/node_modules/tap requires glob@'~3.2.1' but will load
+448 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+448 warn unmet dependency which is version 3.1.21
+449 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/grunt-bump/node_modules/grunt-contrib-nodeunit/node_modules/tap requires nopt@'~2' but will load
+449 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+449 warn unmet dependency which is version 1.0.10
+450 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-sauce-launcher/node_modules/grunt-bump/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~2.4.0' but will load
+450 warn unmet dependency undefined,
+450 warn unmet dependency which is version undefined
+451 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-phantomjs-launcher/node_modules/grunt-auto-release/node_modules/grunt-simple-mocha/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'0.0.x' but will load
+451 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+451 warn unmet dependency which is version 0.2.14
+452 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-phantomjs-launcher/node_modules/grunt-bump/node_modules/semver/node_modules/uglify-js requires async@'~0.2.6' but will load
+452 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+452 warn unmet dependency which is version 0.1.22
+453 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-phantomjs-launcher/node_modules/grunt-bump/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+453 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+453 warn unmet dependency which is version 3.1.21
+454 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/temporary/node_modules/chai/node_modules/karma-phantomjs-launcher/node_modules/grunt-bump/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+454 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+454 warn unmet dependency which is version 3.1.21
+455 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+455 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+455 warn unmet dependency which is version 0.2.14
+456 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~0.9.0' but will load
+456 warn unmet dependency undefined,
+456 warn unmet dependency which is version undefined
+457 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap requires nopt@'~2' but will load
+457 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+457 warn unmet dependency which is version 1.0.10
+458 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+458 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+458 warn unmet dependency which is version 4.3.1
+459 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy/node_modules/tap requires nopt@'~2' but will load
+459 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+459 warn unmet dependency which is version 1.0.10
+460 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy/node_modules/tap/node_modules/glob requires minimatch@'0.3' but will load
+460 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch,
+460 warn unmet dependency which is version 2.0.1
+461 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/tape requires glob@'~3.2.9' but will load
+461 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+461 warn unmet dependency which is version 4.3.1
+462 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+462 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+462 warn unmet dependency which is version 4.3.1
+463 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/findup-sync/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/underscore/node_modules/phantomjs requires rimraf@'~2.0.2' but will load
+463 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/rimraf,
+463 warn unmet dependency which is version 2.2.8
+464 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/iconv-lite/node_modules/vows requires glob@'~4.0.6' but will load
+464 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+464 warn unmet dependency which is version 3.1.21
+465 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/jasmine-node/node_modules/underscore/node_modules/eslint requires glob@'~3.2.7' but will load
+465 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+465 warn unmet dependency which is version 3.1.21
+466 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/jasmine-node/node_modules/underscore/node_modules/eslint requires js-yaml@'~3.0.1' but will load
+466 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/js-yaml,
+466 warn unmet dependency which is version 2.0.5
+467 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/jasmine-node/node_modules/underscore/node_modules/uglify-js requires async@'~0.2.6' but will load
+467 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/async,
+467 warn unmet dependency which is version 0.1.22
+468 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+468 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+468 warn unmet dependency which is version 4.3.1
+469 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/tap requires nopt@'~2' but will load
+469 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+469 warn unmet dependency which is version 1.0.10
+470 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/tap requires mkdirp@'~0.3' but will load
+470 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/mkdirp,
+470 warn unmet dependency which is version 0.5.0
+471 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy/node_modules/tap requires glob@'~3.2.1' but will load
+471 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+471 warn unmet dependency which is version 4.3.1
+472 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy/node_modules/tap requires nopt@'~2' but will load
+472 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+472 warn unmet dependency which is version 1.0.10
+473 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/tape requires glob@'~3.2.9' but will load
+473 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+473 warn unmet dependency which is version 4.3.1
+474 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+474 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+474 warn unmet dependency which is version 4.3.1
+475 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/underscore/node_modules/phantomjs requires rimraf@'~2.0.2' but will load
+475 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/rimraf,
+475 warn unmet dependency which is version 2.2.8
+476 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.8.0' but will load
+476 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/getobject/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit,
+476 warn unmet dependency which is version 0.7.4
+477 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+477 warn unmet dependency undefined,
+477 warn unmet dependency which is version undefined
+478 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~0.9.0' but will load
+478 warn unmet dependency undefined,
+478 warn unmet dependency which is version undefined
+479 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/underscore/node_modules/phantomjs requires rimraf@'~2.0.2' but will load
+479 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/rimraf,
+479 warn unmet dependency which is version 2.2.8
+480 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/connect requires qs@'0.6.5' but will load
+480 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+480 warn unmet dependency which is version 0.5.6
+481 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/connect requires qs@'0.5.1' but will load
+481 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+481 warn unmet dependency which is version 0.5.6
+482 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/connect requires fresh@'0.1.0' but will load
+482 warn unmet dependency undefined,
+482 warn unmet dependency which is version undefined
+483 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/send requires fresh@'0.1.0' but will load
+483 warn unmet dependency undefined,
+483 warn unmet dependency which is version undefined
+484 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/send requires range-parser@'0.0.4' but will load
+484 warn unmet dependency undefined,
+484 warn unmet dependency which is version undefined
+485 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+485 warn unmet dependency undefined,
+485 warn unmet dependency which is version undefined
+486 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+486 warn unmet dependency undefined,
+486 warn unmet dependency which is version undefined
+487 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+487 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug,
+487 warn unmet dependency which is version 0.7.4
+488 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/hjs/node_modules/hogan.js requires mkdirp@'0.3.0' but will load
+488 warn unmet dependency undefined,
+488 warn unmet dependency which is version undefined
+489 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/request/node_modules/form-data requires mime@'~1.2.2' but will load
+489 warn unmet dependency undefined,
+489 warn unmet dependency which is version undefined
+490 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express requires connect@'2.7.0' but will load
+490 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/connect,
+490 warn unmet dependency which is version 2.7.11
+491 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires qs@'0.4.2' but will load
+491 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+491 warn unmet dependency which is version 0.5.6
+492 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires cookie@'0.0.4' but will load
+492 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/cookie,
+492 warn unmet dependency which is version 0.0.3
+493 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires fresh@'0.0.1' but will load
+493 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/fresh,
+493 warn unmet dependency which is version 0.1.0
+494 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+494 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+494 warn unmet dependency which is version 3.1.21
+495 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/mkdirp/node_modules/tap requires nopt@'~2' but will load
+495 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+495 warn unmet dependency which is version 1.0.10
+496 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/supertest/node_modules/superagent requires qs@'0.4.2' but will load
+496 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+496 warn unmet dependency which is version 0.5.6
+497 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~0.9.0' but will load
+497 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-jshint/node_modules/jshint,
+497 warn unmet dependency which is version 2.4.4
+498 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap requires nopt@'~2' but will load
+498 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+498 warn unmet dependency which is version 1.0.10
+499 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-util/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+499 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+499 warn unmet dependency which is version 0.2.14
+500 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+500 warn unmet dependency undefined,
+500 warn unmet dependency which is version undefined
+501 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+501 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+501 warn unmet dependency which is version 3.1.21
+502 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+502 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+502 warn unmet dependency which is version 0.2.14
+503 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+503 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+503 warn unmet dependency which is version 0.2.14
+504 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap requires nopt@'~2' but will load
+504 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+504 warn unmet dependency which is version 1.0.10
+505 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+505 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+505 warn unmet dependency which is version 4.3.1
+506 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires glob@'~3.2.1' but will load
+506 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+506 warn unmet dependency which is version 4.3.1
+507 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires nopt@'~2' but will load
+507 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+507 warn unmet dependency which is version 1.0.10
+508 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'0.0.x' but will load
+508 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+508 warn unmet dependency which is version 0.2.14
+509 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint requires jshint@'~2.5.0' but will load
+509 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/jshint,
+509 warn unmet dependency which is version 2.1.11
+510 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/browserify requires inherits@'~2.0.1' but will load
+510 warn unmet dependency undefined,
+510 warn unmet dependency which is version undefined
+511 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~2.4.0' but will load
+511 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/jshint,
+511 warn unmet dependency which is version 2.1.11
+512 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+512 warn unmet dependency undefined,
+512 warn unmet dependency which is version undefined
+513 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+513 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+513 warn unmet dependency which is version 4.3.1
+514 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires glob@'~3.2.1' but will load
+514 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+514 warn unmet dependency which is version 4.3.1
+515 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires nopt@'~2' but will load
+515 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+515 warn unmet dependency which is version 1.0.10
+516 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+516 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+516 warn unmet dependency which is version 0.2.14
+517 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.8.0' but will load
+517 warn unmet dependency undefined,
+517 warn unmet dependency which is version undefined
+518 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-jshint requires jshint@'~1.0.0' but will load
+518 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint,
+518 warn unmet dependency which is version 2.5.11
+519 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+519 warn unmet dependency undefined,
+519 warn unmet dependency which is version undefined
+520 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/globule requires lodash@'~1.0.1' but will load
+520 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/lodash,
+520 warn unmet dependency which is version 0.9.2
+521 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/connect requires qs@'0.6.5' but will load
+521 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+521 warn unmet dependency which is version 0.5.6
+522 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express requires connect@'2.7.2' but will load
+522 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/connect,
+522 warn unmet dependency which is version 2.7.11
+523 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/superagent requires qs@'0.5.2' but will load
+523 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+523 warn unmet dependency which is version 0.5.6
+524 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express requires connect@'2.3.4' but will load
+524 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/connect,
+524 warn unmet dependency which is version 2.7.11
+525 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+525 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+525 warn unmet dependency which is version 3.1.21
+526 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap requires nopt@'~2' but will load
+526 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+526 warn unmet dependency which is version 1.0.10
+527 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+527 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+527 warn unmet dependency which is version 3.1.21
+528 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+528 warn unmet dependency undefined,
+528 warn unmet dependency which is version undefined
+529 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-jshint requires jshint@'~1.0.0' but will load
+529 warn unmet dependency undefined,
+529 warn unmet dependency which is version undefined
+530 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/gaze/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+530 warn unmet dependency undefined,
+530 warn unmet dependency which is version undefined
+531 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/connect requires qs@'0.6.5' but will load
+531 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+531 warn unmet dependency which is version 0.5.6
+532 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs/node_modules/expect.js/node_modules/serve requires connect@'2.3.x' but will load
+532 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/connect,
+532 warn unmet dependency which is version 2.7.11
+533 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/request/node_modules/form-data requires mime@'~1.2.2' but will load
+533 warn unmet dependency undefined,
+533 warn unmet dependency which is version undefined
+534 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/connect requires qs@'0.5.1' but will load
+534 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+534 warn unmet dependency which is version 0.5.6
+535 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+535 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug,
+535 warn unmet dependency which is version 0.7.4
+536 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+536 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/commander,
+536 warn unmet dependency which is version 0.6.1
+537 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+537 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/mkdirp,
+537 warn unmet dependency which is version 0.3.3
+538 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+538 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+538 warn unmet dependency which is version 3.1.21
+539 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/mkdirp/node_modules/tap requires nopt@'~2' but will load
+539 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+539 warn unmet dependency which is version 1.0.10
+540 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/hjs/node_modules/hogan.js requires mkdirp@'0.3.0' but will load
+540 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/mkdirp,
+540 warn unmet dependency which is version 0.3.3
+541 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/supertest/node_modules/superagent requires qs@'0.4.2' but will load
+541 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+541 warn unmet dependency which is version 0.5.6
+542 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/supertest/node_modules/express/node_modules/connect requires qs@'0.4.2' but will load
+542 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+542 warn unmet dependency which is version 0.5.6
+543 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/supertest/node_modules/express/node_modules/connect requires cookie@'0.0.4' but will load
+543 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/supertest/node_modules/express/node_modules/cookie,
+543 warn unmet dependency which is version 0.0.3
+544 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/supertest/node_modules/express/node_modules/connect requires fresh@'0.0.1' but will load
+544 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/express/node_modules/fresh,
+544 warn unmet dependency which is version 0.1.0
+545 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/connect requires qs@'0.5.1' but will load
+545 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/qs,
+545 warn unmet dependency which is version 0.5.2
+546 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/connect requires formidable@'1.0.11' but will load
+546 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/formidable,
+546 warn unmet dependency which is version 1.0.9
+547 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/connect requires crc@'0.2.0' but will load
+547 warn unmet dependency undefined,
+547 warn unmet dependency which is version undefined
+548 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/send requires mime@'1.2.6' but will load
+548 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/mime,
+548 warn unmet dependency which is version 1.2.5
+549 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+549 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug,
+549 warn unmet dependency which is version 0.7.4
+550 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+550 warn unmet dependency undefined,
+550 warn unmet dependency which is version undefined
+551 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+551 warn unmet dependency undefined,
+551 warn unmet dependency which is version undefined
+552 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/stylus requires mkdirp@'0.3.x' but will load
+552 warn unmet dependency undefined,
+552 warn unmet dependency which is version undefined
+553 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+553 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+553 warn unmet dependency which is version 3.1.21
+554 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent/node_modules/express/node_modules/supertest requires superagent@'0.5.0' but will load
+554 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/superagent,
+554 warn unmet dependency which is version 0.10.0
+555 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires qs@'0.4.2' but will load
+555 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+555 warn unmet dependency which is version 0.5.6
+556 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires cookie@'0.0.4' but will load
+556 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/cookie,
+556 warn unmet dependency which is version 0.0.3
+557 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect requires fresh@'0.0.1' but will load
+557 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/fresh,
+557 warn unmet dependency which is version 0.1.0
+558 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+558 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/commander,
+558 warn unmet dependency which is version 0.6.1
+559 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+559 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/mkdirp,
+559 warn unmet dependency which is version 0.3.3
+560 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+560 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+560 warn unmet dependency which is version 3.1.21
+561 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+561 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/debug,
+561 warn unmet dependency which is version 0.7.4
+562 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/hjs/node_modules/hogan.js requires mkdirp@'0.3.0' but will load
+562 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/mkdirp,
+562 warn unmet dependency which is version 0.3.3
+563 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/supertest/node_modules/express/node_modules/supertest/node_modules/superagent requires qs@'0.4.2' but will load
+563 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/tiny-lr-fork/node_modules/qs,
+563 warn unmet dependency which is version 0.5.6
+564 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'0.0.x' but will load
+564 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+564 warn unmet dependency which is version 0.2.14
+565 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+565 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+565 warn unmet dependency which is version 3.1.21
+566 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+566 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+566 warn unmet dependency which is version 3.1.21
+567 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+567 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+567 warn unmet dependency which is version 3.1.21
+568 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+568 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+568 warn unmet dependency which is version 4.3.1
+569 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/tap requires glob@'~3.2.1' but will load
+569 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+569 warn unmet dependency which is version 4.3.1
+570 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/tap requires nopt@'~2' but will load
+570 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+570 warn unmet dependency which is version 1.0.10
+571 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/tape requires glob@'~3.2.9' but will load
+571 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+571 warn unmet dependency which is version 4.3.1
+572 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+572 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+572 warn unmet dependency which is version 4.3.1
+573 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+573 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+573 warn unmet dependency which is version 0.2.14
+574 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~2.4.0' but will load
+574 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint,
+574 warn unmet dependency which is version 2.5.11
+575 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-jshint requires jshint@'~1.0.0' but will load
+575 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint,
+575 warn unmet dependency which is version 2.5.11
+576 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/connect requires qs@'0.6.5' but will load
+576 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+576 warn unmet dependency which is version 0.5.6
+577 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/request/node_modules/form-data requires mime@'~1.2.2' but will load
+577 warn unmet dependency undefined,
+577 warn unmet dependency which is version undefined
+578 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/connect requires qs@'0.5.1' but will load
+578 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+578 warn unmet dependency which is version 0.5.6
+579 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+579 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/debug,
+579 warn unmet dependency which is version 0.7.4
+580 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+580 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/commander,
+580 warn unmet dependency which is version 0.6.1
+581 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+581 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/mkdirp,
+581 warn unmet dependency which is version 0.3.3
+582 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+582 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+582 warn unmet dependency which is version 3.1.21
+583 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/buffer-crc32/node_modules/tap requires nopt@'~2' but will load
+583 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+583 warn unmet dependency which is version 1.0.10
+584 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/mkdirp/node_modules/tap requires nopt@'~2' but will load
+584 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+584 warn unmet dependency which is version 1.0.10
+585 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/hjs/node_modules/hogan.js requires mkdirp@'0.3.0' but will load
+585 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/mkdirp,
+585 warn unmet dependency which is version 0.3.3
+586 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/supertest/node_modules/superagent requires qs@'0.4.2' but will load
+586 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+586 warn unmet dependency which is version 0.5.6
+587 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/supertest/node_modules/express requires connect@'2.3.4' but will load
+587 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/connect,
+587 warn unmet dependency which is version 2.7.2
+588 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/supertest/node_modules/express requires cookie@'0.0.3' but will load
+588 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/express/node_modules/cookie,
+588 warn unmet dependency which is version 0.0.5
+589 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/connect requires qs@'0.4.2' but will load
+589 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+589 warn unmet dependency which is version 0.5.6
+590 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/connect requires cookie@'0.0.4' but will load
+590 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/cookie,
+590 warn unmet dependency which is version 0.0.3
+591 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/connect requires fresh@'0.0.1' but will load
+591 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/fresh,
+591 warn unmet dependency which is version 0.1.0
+592 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/connect-redis requires debug@'^1.0.4' but will load
+592 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/debug,
+592 warn unmet dependency which is version 0.7.4
+593 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/jade requires commander@'~2.5.0' but will load
+593 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/commander,
+593 warn unmet dependency which is version 0.6.1
+594 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/jade requires mkdirp@'~0.5.0' but will load
+594 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/mkdirp,
+594 warn unmet dependency which is version 0.3.3
+595 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/stylus requires glob@'3.2.x' but will load
+595 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+595 warn unmet dependency which is version 3.1.21
+596 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/hjs/node_modules/hogan.js requires mkdirp@'0.3.0' but will load
+596 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/mkdirp,
+596 warn unmet dependency which is version 0.3.3
+597 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/supertest/node_modules/express/node_modules/supertest/node_modules/superagent requires qs@'0.4.2' but will load
+597 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/tiny-lr/node_modules/qs,
+597 warn unmet dependency which is version 0.5.6
+598 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json requires glob@'^4.0.2' but will load
+598 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+598 warn unmet dependency which is version 3.1.21
+599 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data requires github-url-from-git@'^1.3.0' but will load
+599 warn unmet dependency undefined,
+599 warn unmet dependency which is version undefined
+600 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data requires github-url-from-username-repo@'^1.0.0' but will load
+600 warn unmet dependency undefined,
+600 warn unmet dependency which is version undefined
+601 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires glob@'~3.2.1' but will load
+601 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/glob,
+601 warn unmet dependency which is version 3.1.21
+602 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap requires nopt@'~2' but will load
+602 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+602 warn unmet dependency which is version 1.0.10
+603 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint requires minimatch@'1.0.x' but will load
+603 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+603 warn unmet dependency which is version 0.2.14
+604 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit requires nodeunit@'~0.7.4' but will load
+604 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit,
+604 warn unmet dependency which is version 0.8.8
+605 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~0.9.0' but will load
+605 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-watch/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/jshint,
+605 warn unmet dependency which is version 2.5.11
+606 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git/node_modules/mocha/node_modules/jade requires commander@'0.6.1' but will load
+606 warn unmet dependency undefined,
+606 warn unmet dependency which is version undefined
+607 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git/node_modules/mocha/node_modules/jade requires mkdirp@'0.3.0' but will load
+607 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git/node_modules/mocha/node_modules/mkdirp,
+607 warn unmet dependency which is version 0.3.3
+608 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git/node_modules/mocha/node_modules/debug requires ms@'0.6.2' but will load
+608 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-git/node_modules/mocha/node_modules/ms,
+608 warn unmet dependency which is version 0.3.0
+609 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/github-url-from-username-repo/node_modules/mocha requires glob@'3.2.3' but will load
+609 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+609 warn unmet dependency which is version 4.3.1
+610 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/tap requires nopt@'~2' but will load
+610 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+610 warn unmet dependency which is version 1.0.10
+611 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/tap requires mkdirp@'~0.3' but will load
+611 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/mkdirp,
+611 warn unmet dependency which is version 0.5.0
+612 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/once/node_modules/wrappy/node_modules/tap requires glob@'~3.2.1' but will load
+612 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+612 warn unmet dependency which is version 4.3.1
+613 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/tape requires glob@'~3.2.9' but will load
+613 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+613 warn unmet dependency which is version 4.3.1
+614 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/lru-cache/node_modules/weak/node_modules/mocha requires glob@'3.2.3' but will load
+614 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+614 warn unmet dependency which is version 4.3.1
+615 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/underscore/node_modules/phantomjs requires rimraf@'~2.0.2' but will load
+615 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/rimraf,
+615 warn unmet dependency which is version 2.2.8
+616 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap/node_modules/buffer-equal/node_modules/tap requires nopt@'~1.0.10' but will load
+616 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap/node_modules/nopt,
+616 warn unmet dependency which is version 2.2.1
+617 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap/node_modules/buffer-equal/node_modules/tap requires mkdirp@'~0.3' but will load
+617 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/mkdirp,
+617 warn unmet dependency which is version 0.5.0
+618 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/tap/node_modules/runforcover/node_modules/bunker/node_modules/tap requires mkdirp@'~0.3' but will load
+618 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/mkdirp,
+618 warn unmet dependency which is version 0.5.0
+619 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/tap requires nopt@'~2' but will load
+619 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+619 warn unmet dependency which is version 1.0.10
+620 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/mkdirp/node_modules/minimist/node_modules/tape/node_modules/tap requires mkdirp@'~0.3' but will load
+620 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/graceful-fs/node_modules/mkdirp,
+620 warn unmet dependency which is version 0.5.0
+621 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap/node_modules/mkdirp/node_modules/tap requires glob@'~3.2.1' but will load
+621 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/glob,
+621 warn unmet dependency which is version 4.3.1
+622 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap/node_modules/buffer-equal/node_modules/tap requires nopt@'~1.0.10' but will load
+622 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/read-package-json/node_modules/tap/node_modules/nopt,
+622 warn unmet dependency which is version 2.2.1
+623 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-jshint requires jshint@'~2.4.0' but will load
+623 warn unmet dependency undefined,
+623 warn unmet dependency which is version undefined
+624 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/tap requires nopt@'~2' but will load
+624 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/nopt,
+624 warn unmet dependency which is version 1.0.10
+625 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-clean/node_modules/grunt-contrib-jshint requires jshint@'~1.0.0' but will load
+625 warn unmet dependency undefined,
+625 warn unmet dependency which is version undefined
+626 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/grunt-contrib-nodeunit/node_modules/grunt-contrib-internal/node_modules/grunt-contrib-jshint/node_modules/grunt-contrib-nodeunit/node_modules/tap/node_modules/glob requires minimatch@'0.3' but will load
+626 warn unmet dependency /Users/user/Desktop/azure-media-indexer/node_modules/grunt/node_modules/minimatch,
+626 warn unmet dependency which is version 0.2.14
+627 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+627 error peerinvalid Peer grunt-contrib-nodeunit@0.3.3 wants grunt@~0.4.0
+627 error peerinvalid Peer grunt-contrib-jshint@0.10.0 wants grunt@~0.4.0
+627 error peerinvalid Peer grunt-contrib-watch@0.6.1 wants grunt@~0.4.0
+628 error System Darwin 13.4.0
+629 error command "node" "/usr/local/bin/npm" "install" "grunt-mocha-test"
+630 error cwd /Users/user/Desktop/azure-media-indexer/test
+631 error node -v v0.10.32
+632 error npm -v 1.4.28
+633 error code EPEERINVALID
+634 verbose exit [ 1, true ]

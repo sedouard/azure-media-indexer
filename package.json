@@ -1,0 +1,21 @@
+{
+  "name": "azure-media-indexer",
+  "version": "0.3.4",
+  "description": "Azure Media Indexer Client Library",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "azure-storage": "^0.4.1",
+    "unirest": "^0.3.7"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
