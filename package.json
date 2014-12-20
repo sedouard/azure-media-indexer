@@ -1,6 +1,6 @@
 {
   "name": "azure-media-indexer",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "description": "Azure Media Indexer Client Library",
   "main": "lib/index.js",
   "directories": {
