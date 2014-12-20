@@ -17,7 +17,7 @@ npm install azure-media-indexer
 ### Initializing
 
 ```js
-var Indexer = require('../lib/index.js');
+var Indexer = require('azure-media-indexer');
 var indexer = new Indexer(process.env.MEDIASERVICES_ACCOUNT_NAME,
   process.env.MEDIASERVICES_ACCOUNT_KEY, process.env.STORAGE_ACCOUNT_NAME,
   process.env.STORAGE_ACCOUNT_KEY, true);
