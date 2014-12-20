@@ -1,6 +1,0 @@
-export MEDIASERVICES_ACCOUNT_NAME=zillabytecrawler
-export MEDIASERVICES_ACCOUNT_KEY=QKlJGROkJrwmI3XffnosGLZcFddTalCCcngi/XggI9w=
-export STORAGE_ACCOUNT_NAME=sedouardmongodb
-export STORAGE_ACCOUNT_KEY=SIl7mSFQD73qgrcPCQ9VeMZYozSY3QAzoH7ALrmES2pKEkkcFaZ0rvcNdbDn0hmVdJVyVFapI55ZXb9yU6CfTA==
-export TEST_VIDEO_FILE=test/CustomGesturesKinectV2forWindows.mp4
-grunt test
