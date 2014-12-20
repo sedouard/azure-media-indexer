@@ -1,5 +1,7 @@
 # Azure Media Services Indexer
 
+![BuildStatus](https://travis-ci.org/sedouard/azure-media-indexer.svg)
+
 This is a client library for the Azure Media Services Indexer, a nifty service that allows you to convert videos to indexable text. You can do things like find keywords in videos and even do automated captioning.
 
 This library currently allows for a subset of video processing -- indexing a video for key phrases -- offered by the public [Azure Media Services REST api](http://msdn.microsoft.com/en-us/library/azure/hh973617.aspx).
