@@ -9,6 +9,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "azure-storage": "^0.4.1",
+    "grunt-cli": "^0.1.13",
     "unirest": "^0.3.7"
   },
   "devDependencies": {
