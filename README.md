@@ -167,10 +167,11 @@ As always, contributions are always welcome. Please be sure to to accompany any 
 
 The tests require a few environment variables to get started. Generally I set these up in a shell script file and run the tests from there:
 
--MEDIASERVICES_ACCOUNT_NAME: The name of the media services account
--MEDIASERVICES_ACCOUNT_KEY: The key for the account
--STORAGE_ACCOUNT_NAME: The storage account associated with the media service
--STORAGE_ACCOUNT_KEY: The storage account key associated with the media service
+- MEDIASERVICES_ACCOUNT_NAME: The name of the media services account
+- MEDIASERVICES_ACCOUNT_KEY: The key for the account
+- STORAGE_ACCOUNT_NAME: The storage account associated with the media service
+- STORAGE_ACCOUNT_KEY: The storage account key associated with the media service
+- TEST_VIDEO_FILE: The video the tests should use. Check [here](http://msdn.microsoft.com/en-us/library/azure/dn535852.aspx) for information on supported formats.
 
 To run the tests ensure that you have [grunt-cli](https://www.npmjs.com/package/grunt-cli) installed and from the root repository directory run:
 
