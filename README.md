@@ -22,7 +22,7 @@ npm install azure-media-indexer
 var Indexer = require('azure-media-indexer');
 var indexer = new Indexer(process.env.MEDIASERVICES_ACCOUNT_NAME,
   process.env.MEDIASERVICES_ACCOUNT_KEY, process.env.STORAGE_ACCOUNT_NAME,
-  process.env.STORAGE_ACCOUNT_KEY, true);
+  process.env.STORAGE_ACCOUNT_KEY);
 	
 indexer.initialize( 
   function(err, data){
@@ -93,7 +93,8 @@ indexer.getAllJobs(
           assert.equal(true, (err === null));
           
 	   for(var i in data){
-	   	console.log('Found job ' + data[i].Name + ' with status ' + data[i].State);	   }
+	   	console.log('Found job ' + data[i].Name + ' with status ' + data[i].State);
+	   }
        }
  );
 ```
