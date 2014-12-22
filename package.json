@@ -1,6 +1,6 @@
 {
   "name": "azure-media-indexer",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Azure Media Indexer Client Library",
   "main": "lib/index.js",
   "directories": {
@@ -31,6 +31,10 @@
   "author": {
     "name": "Steven Edouard",
     "email": "steven.edouard1@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sedouard/azure-media-indexer"
   },
   "license": "MIT",
   "bugs": {
